@@ -14,6 +14,7 @@ import './scss/pendidikan.scss';
 import './scss/kesehatan.scss';
 // import './scss/tentang_kami.scss';
 import StandarPenyusunan from './pages/StandarPenyusunan';
+import './scss/StandarPenyusunan.scss';
 import './scss/panduan.scss'
 
 
