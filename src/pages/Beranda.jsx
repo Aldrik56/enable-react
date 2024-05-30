@@ -1,5 +1,6 @@
 import "../scss/beranda.scss";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 const Beranda = () => {
     return (
         <div id="berandaPage">
@@ -68,6 +69,7 @@ const Beranda = () => {
                     </div>
                 </div>
             </article>
+            <Footer/>
 
             {/* <section className="beranda-kirim-pesan">
                 <div>

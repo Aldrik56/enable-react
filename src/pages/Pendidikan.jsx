@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
+import Footer from '../components/Footer';
 const Pendidikan = () => {
     const swiperEl = document.querySelector('mySwiper');
     const [swiper, setSwiper] = useState();
@@ -809,6 +809,7 @@ const Pendidikan = () => {
                     </div>
                 </div>
             </article>
+            <Footer/>
         </div>
     );
 }

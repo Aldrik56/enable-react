@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const Panduan = () => {
@@ -1267,6 +1268,7 @@ const Panduan = () => {
                     </table>
                 </div>
             </article>
+            <Footer/>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar';
-
+import Footer from '../components/Footer';
 const TentangKami= ()=> {
     return(
         <div className="tentangKamiPage">
@@ -46,6 +46,7 @@ const TentangKami= ()=> {
                 </div>
             </div>
         </article>
+        <Footer/>
         </div>
     )
 }
