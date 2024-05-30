@@ -282,7 +282,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="tenaga__pendidik">
-                                <source  src="./assets/audios/SONIFIKASI PERBANDINGAN TENAGA PENDIDIK.mp3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI PERBANDINGAN TENAGA PENDIDIK1.mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__tenaga__pendidik" alt="klik untuk memutar sonifikasi perbandingan tenaga pendidik"><img src="../assets/images/play-button.png" alt=""/></button>
                             <a href="https://drive.google.com/file/d/1TOToT0iC3XqpUL9Ly0iLKkM9tZMamqVX/view?usp=drive_link" >
@@ -412,7 +412,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="sekolah__inklusi">
-                                <source  src="./assets/audios/SONIFIKASI SEKOLAH INKLUSI DAN REGULER (2).mp3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI SEKOLAH INKLUSI DAN REGULER 1(2).mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__sekolah__inklusi" alt="klik untuk memutar sonifikasi perbandingan sekolah inklusi dan regular"><img src="../assets/images/play-button.png"/></button>
                             <a href="https://drive.google.com/file/d/16FV16UCbJD8_6vAlbBFR-wRYgi1HM3Mb/view?usp=drive_link">
@@ -431,7 +431,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="jumlah__aduan">
-                                <source  src="./assets/audios/SONIFIKASI JUMLAH ADUAN PENDIDIKAN KND .mp3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI JUMLAH ADUAN PENDIDIKAN KND 1.mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__jumlah__aduan" alt="klik untuk memutar sonifikasi jumlah aduan"><img src="../assets/images/play-button.png"/></button>
                             <a href="https://drive.google.com/file/d/1qvI3h4xpXSLfRKuGdbZWdyRJ5UVd0ls-/view?usp=drive_link" >
@@ -453,7 +453,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="persebaran__SLB">
-                                <source  src="./assets/audios/SONIFIKASI PERSEBARAN SEKOLAH LUAR BIASA .mp3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI PERSEBARAN SEKOLAH LUAR BIASA 1.mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__persearan__SLB"><img src="../assets/images/play-button.png"/></button>
                             <a href="https://drive.google.com/file/d/1uSb8Pgo2NRZLvwojUKaJBOZVDa0BicVG/view?usp=drive_link">
@@ -471,7 +471,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="pendidikan__penyandang__disabilitas">
-                                <source  src="./assets/audios/SONIFIKASI ANGKA PENDIDIKAN .mp3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI ANGKA PENDIDIKAN1.mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__pendidikan__penyandang__disabilitas"><img src="../assets/images/play-button.png"/></button>
                             <a href="https://drive.google.com/file/d/1gFEZkHxofUnHAtWpXCgtigJryOZtFHFo/view?usp=drive_link">
@@ -750,7 +750,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="pendidikan__penyandang__disabilitas">
-                                <source  src="./assets/audios/SONIFIKASI ANGKA PENDIDIKAN .mp3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI ANGKA PENDIDIKAN1.mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__pendidikan__penyandang__disabilitas"><img src="../assets/images/play-button.png"/></button>
                             <a href="https://drive.google.com/file/d/1gFEZkHxofUnHAtWpXCgtigJryOZtFHFo/view?usp=drive_link">
