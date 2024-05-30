@@ -30,7 +30,6 @@ function App() {
           <Route path="/panduan" element={<Panduan/>} /> 
           <Route path="/tentang-kami" element={<TentangKami/>} />
           <Route path="/standar-penyusunan" element={<StandarPenyusunan/>} />
-          
         </Route>
       </Routes>
     </BrowserRouter>
