@@ -69,7 +69,7 @@ const Beranda = () => {
                 </div>
             </article>
 
-            <section className="beranda-kirim-pesan">
+            {/* <section className="beranda-kirim-pesan">
                 <div>
                     <h2>Kirim Pesan Ke Kami</h2>
                     <p>Sampaikan kritik dan masukan kalian untuk Enabled</p>
@@ -87,7 +87,7 @@ const Beranda = () => {
                         </form>
                     </div>
                 </div>
-        </section>
+        </section> */}
     </div>
     )
 }

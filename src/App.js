@@ -12,6 +12,8 @@ import './scss/beranda.scss';
 // import './scss/panduan.scss';
 import './scss/pendidikan.scss';
 import './scss/kesehatan.scss';
+// import './scss/tentang_kami.scss';
+import './scss/panduan.scss'
 
 
 function App() {

@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 
 const Panduan = () => {
     return (
-        <>
+        <div id="panduanPage">
             <Navbar/>
             <section className="hero-section">
                 <div>
@@ -81,7 +81,7 @@ const Panduan = () => {
                             <td>1</td>
                             <td>On/Off</td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Ctrl + Alt + N</td>
                                         <td>Insert + Q</td>
@@ -89,7 +89,7 @@ const Panduan = () => {
                                 </table>
                             </td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Menyalakan NVDA</td>
                                         <td>Mematikan NVDA</td>
@@ -101,7 +101,7 @@ const Panduan = () => {
                             <td>2</td>
                             <td>Reading<br/>(membaca)</td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Control</td>
                                         <td>Insert + ↓ (atau +)</td>
@@ -112,7 +112,7 @@ const Panduan = () => {
                             </td>
                                 
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Berhenti membaca</td>
                                         <td>Membaca baris</td>
@@ -126,7 +126,7 @@ const Panduan = () => {
                             <td>3</td>
                             <td>Aktivasi</td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Enter</td>
                                         <td>Space bar</td>
@@ -134,7 +134,7 @@ const Panduan = () => {
                                 </table>
                                 </td>
                             <td>
-                                <table style="width:100%"> 
+                                <table style={{width:"100%"}}> 
                                     <tr className="tr">
                                         <td>Link</td>
                                         <td>Tombol</td>
@@ -146,7 +146,7 @@ const Panduan = () => {
                             <td>4</td>
                             <td>Heading</td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Enter atau space bar</td>
                                         <td>H</td>
@@ -156,7 +156,7 @@ const Panduan = () => {
                                 </table>
                             </td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Link</td>
                                         <td>Heading selanjutnya</td>
@@ -182,7 +182,7 @@ const Panduan = () => {
                             <td>7</td>
                             <td>Tabel</td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>T</td>
                                         <td>Ctrl + Alt + &#8593;</td>
@@ -190,7 +190,7 @@ const Panduan = () => {
                                 </table>
                             </td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Ke tabel selanjutnya</td>
                                         <td>Ke tabel sebelumnya</td>
@@ -208,7 +208,7 @@ const Panduan = () => {
                             <td>9</td>
                             <td>Link</td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Insert + F7</td>
                                         <td>K</td>
@@ -218,7 +218,7 @@ const Panduan = () => {
                                 </table>
                             </td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Ke daftar item selanjutnya</td>
                                         <td>Ke tautan selanjutnya</td>
@@ -262,7 +262,7 @@ const Panduan = () => {
                                 <td>1</td>
                                 <td>On/Off</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Ctrl + Alt + N</td>
                                             <td>Insert + Q</td>
@@ -270,7 +270,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Menyalakan NVDA</td>
                                             <td>Mematikan NVDA</td>
@@ -282,7 +282,7 @@ const Panduan = () => {
                                 <td>2</td>
                                 <td>Reading<br/>(membaca)</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Control</td>
                                             <td>Insert + ↓ (atau +)</td>
@@ -292,7 +292,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Berhenti membaca</td>
                                             <td>Membaca baris</td>
@@ -306,7 +306,7 @@ const Panduan = () => {
                                 <td>3</td>
                                 <td>Aktivasi</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Enter</td>
                                             <td>Space bar</td>
@@ -314,7 +314,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Link</td>
                                             <td>Tombol</td>
@@ -326,7 +326,7 @@ const Panduan = () => {
                                 <td>4</td>
                                 <td>Heading</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Enter atau space bar</td>
                                             <td>H</td>
@@ -336,7 +336,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Link</td>
                                             <td>Heading selanjutnya</td>
@@ -362,7 +362,7 @@ const Panduan = () => {
                                 <td>7</td>
                                 <td>Tabel</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>T</td>
                                             <td>Ctrl + Alt + →</td>
@@ -370,7 +370,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Ke tabel selanjutnya</td>
                                             <td>Ke tabel sebelumnya</td>
@@ -388,7 +388,7 @@ const Panduan = () => {
                                 <td>9</td>
                                 <td>Link</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Insert + F7</td>
                                             <td>K</td>
@@ -398,7 +398,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Ke daftar item selanjutnya</td>
                                             <td>Ke tautan selanjutnya</td>
@@ -446,7 +446,7 @@ const Panduan = () => {
                             <td>1</td>
                             <td>On/Off</td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>H</td>
                                         <td>Shift + H</td>
@@ -457,7 +457,7 @@ const Panduan = () => {
                                 </table>
                             </td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Ke Heading Selanjutnya</td>
                                         <td>Kembali ke heading sebelumnya</td>
@@ -472,7 +472,7 @@ const Panduan = () => {
                             <td>2</td>
                             <td>Daftar <br/>(Lists)</td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>L</td>
                                         <td>Shift + L</td>
@@ -482,7 +482,7 @@ const Panduan = () => {
                                 </table>
                             </td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Ke daftar selanjutnya</td>
                                         <td>Kembali ke daftar sebelumnya</td>
@@ -496,7 +496,7 @@ const Panduan = () => {
                             <td>3</td>
                             <td>Elemen form</td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>F</td>
                                         <td>Shift + F</td>
@@ -504,7 +504,7 @@ const Panduan = () => {
                                 </table>
                             </td>
                             <td>
-                                <table style="width:100%"> 
+                                <table style={{width:"100%"}}> 
                                     <tr className="tr">
                                         <td>Ke elemen form selenjutnya</td>
                                         <td>Kembali ke elemen sebelumnya</td>
@@ -516,7 +516,7 @@ const Panduan = () => {
                             <td>4</td>
                             <td>Heading</td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Enter atau space bar</td>
                                         <td>H</td>
@@ -526,7 +526,7 @@ const Panduan = () => {
                                 </table>
                             </td>
                             <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Link</td>
                                         <td>Heading selanjutnya</td>
@@ -875,7 +875,7 @@ const Panduan = () => {
                                 <td>1</td>
                                 <td>On/Off</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Ctrl + Alt + N</td>
                                             <td>Insert + Q</td>
@@ -883,7 +883,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Menyalakan NVDA</td>
                                             <td>Mematikan NVDA</td>
@@ -895,7 +895,7 @@ const Panduan = () => {
                                 <td>2</td>
                                 <td>Reading<br/>(membaca)</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Control</td>
                                             <td>Insert + ↓ (atau +)</td>
@@ -905,7 +905,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Berhenti membaca</td>
                                             <td>Membaca baris</td>
@@ -919,7 +919,7 @@ const Panduan = () => {
                                 <td>3</td>
                                 <td>Aktivasi</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Enter</td>
                                             <td>Space bar</td>
@@ -927,7 +927,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                <table style="width:100%">
+                                <table style={{width:"100%"}}>
                                     <tr className="tr">
                                         <td>Link</td>
                                         <td>Tombol</td>
@@ -939,7 +939,7 @@ const Panduan = () => {
                                 <td>4</td>
                                 <td>Heading</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Enter atau space bar</td>
                                             <td>H</td>
@@ -949,7 +949,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Link</td>
                                             <td>Heading selanjutnya</td>
@@ -975,7 +975,7 @@ const Panduan = () => {
                                 <td>7</td>
                                 <td>Tabel</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>T</td>
                                             <td>Ctrl + Alt + →</td>
@@ -983,7 +983,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Ke tabel selanjutnya</td>
                                             <td>Ke tabel sebelumnya</td>
@@ -1001,7 +1001,7 @@ const Panduan = () => {
                                 <td>9</td>
                                 <td>Link</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Insert + F7</td>
                                             <td>K</td>
@@ -1011,7 +1011,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Ke daftar item selanjutnya</td>
                                             <td>Ke tautan selanjutnya</td>
@@ -1054,7 +1054,7 @@ const Panduan = () => {
                                 <td>1</td>
                                 <td>Baris</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Rotor, geser ke atas</td>
                                             <td>Rotor, geser ke bawah</td>
@@ -1062,7 +1062,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Baca baris sebelumnya</td>
                                             <td>Baca baris setelahnya</td>
@@ -1074,7 +1074,7 @@ const Panduan = () => {
                                 <td>2</td>
                                 <td>Huruf</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Rotor, geser ke atas</td>
                                             <td>Rotor, geser ke bawah</td>
@@ -1082,7 +1082,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Baca huruf sebelumnya</td>
                                             <td>Baca huruf setelahnya</td>
@@ -1095,7 +1095,7 @@ const Panduan = () => {
                                 <td>3</td>
                                 <td>kata</td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Rotor, geser ke atas</td>
                                             <td>Rotor, geser ke bawah</td>
@@ -1103,7 +1103,7 @@ const Panduan = () => {
                                     </table>
                                 </td>
                                 <td>
-                                    <table style="width:100%">
+                                    <table style={{width:"100%"}}>
                                         <tr className="tr">
                                             <td>Baca kata sebelumnya</td>
                                             <td>Baca kata setelahnya</td>
@@ -1267,7 +1267,7 @@ const Panduan = () => {
                     </table>
                 </div>
             </article>
-        </>
+        </div>
     );
 }
 
