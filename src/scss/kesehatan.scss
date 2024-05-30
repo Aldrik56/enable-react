@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#kesehatanPage {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        background-color: #001935;
+        width:100vw;
+        height: 14.074vh;
+        top:0;
+        left:0;
+        right:0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav {
+        padding:0px 96px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:100%;
+        width: 100%;
+    
+    }
+    .logo {
+        color: #fff;
+        font-family: "Inter", sans-serif;
+        font-size: 50px;
+        color: #FF7426;
+        font-weight: 700;
+    }
+    .nav-list li {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        column-gap:64px;
+    }
+    
+    .nav-list li a {
+        color:#fff;
+        text-decoration: none;
+        font-family:"Inter", sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 33.89px;
+        padding: 32px 12px; 
+        position: relative;
+        /* padding-left: 80px; */
+    }
+    .nav-list li a:hover {
+        color: #FF7426 !important;
+    }
+    .nav-list li a:hover:after  {
+        content: ""; 
+        position: absolute;
+        bottom: 0px; 
+        color:#FF7426;
+        left: 0;
+        width: 100%;
+        height: 10px; 
+        border-radius: 5px; 
+        background-color: #FF7426;
+    }
+    
+    
+    .kesehatan-hero-section{
+        background-color: #001935;
+        /* background-image: url("../assets/images/hero-secction-kesehatan.png"); */
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        position: relative;
+    }
+    
+    .kesehatan-hero-image {
+        width:100%;
+        height:auto;
+        right:0;
+        z-index: 1;
+    }
+    .halaman-kesehatan-judul {
+        font-family: Merriweather;
+        font-size: calc(72/1920*100vw);
+        font-weight: 700;
+        line-height: 90.5px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        // column-gap: calc(140/1920*100vw);
+        padding:80px 140px 100px 140px;
+    }
+    
+    .halaman-kesehatan-judul p {
+        color: #fff;
+        font-weight: 400;
+        font-size: calc(25/1920*100vw);
+        line-height: 44px;
+        margin-top: calc(40/1920*100vw);
+        font-family: "Inter", sans-serif;
+        text-align: justify;
+        width:43.64vw;
+    }
+    .halaman-kesehatan-judul h1{
+        font-family: Merriweather;
+        font-size: calc(72/1920*100vw);
+        font-weight: 700;
+        line-height: 90.5px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color:#FF7426;   
+    }
+    .author-card {
+        width:fit-content;
+        box-shadow: 0px 4px 54.8px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(255, 255, 255, 1);
+        padding:60px 120px;
+        border-radius: 15px;
+        margin-top: calc(-200 /1080 * 100vh);
+        margin-bottom: -100px;
+        z-index:10;
+        position: relative;
+    }
+    .author-info {
+        display: flex;
+        flex-direction: row;
+        gap: calc(44/1920*100vw);
+    }
+    .author-info >div {
+        // gap: calc(44/1920*100vw) !important;
+    }
+    .author-case-study {
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        gap:32px;
+    }
+    .hr {
+        border: 4px solid #FF7426;
+        border-radius: 5px;
+        width:150px;
+    }
+    .author-photo{
+        border-radius: 50%;
+        width:7.1825vw;
+        height: 7.1825vw;
+    }
+    .ditulis-oleh {
+        line-height:45px;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: "Inter", sans-serif;
+        color:#FF7426;
+    }
+    .author-name{
+        font-family: Merriweather;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        text-align: left;
+        color:#001935;
+    
+    }
+    .tanggal {
+        line-height:36px;
+        letter-spacing: 33%;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: "Merriweather", serif;
+        color:#001935;
+    }
+    .h3 {
+        font-family: Merriweather;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        text-align: justified;
+    }
+    .article {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding:calc(100/1920*100vw) calc(200/1920*100vw);
+    }
+    .content-container {
+        box-shadow: 0px 4px 108.5px 0px rgba(0, 0, 0, 0.1);
+        width:100%;
+        padding:calc(100/1920*100vw) calc(200/1920*100vw);
+    }
+    // .paragraf {
+    //     font-size: 24px;
+    //     line-height: 36px;
+    //     font-family: "Inter", sans-serif;
+    //     font-weight: 500;
+    //     color: #000;
+    //     text-align: justify;
+    // }
+    .container-paragraf {
+        display: flex;
+        flex-direction: column;
+        // padding:calc(80/1920*100vw) 0px 0px 0px;
+        row-gap: calc(16/1920*100vw);
+    }
+    
+    .mb-custom {
+        margin-bottom: 10vh;
+    }
+    swiper-container {
+        width: 100%;
+        z-index:3;
+        position: relative;
+      }
+    .swiper-container-div {
+        height: fit-content;
+        position: relative;
+        width:100vw;
+        padding: 100px;
+    }
+    .mySwiper {
+        position:relative;
+        width: 100%;;
+        
+    }
+    .mySwiper .container-button-swiper{
+        position:absolute;
+        top:50%;
+        bottom:50%;
+        z-index: 10;
+        left:0px;
+        width: 100vw;
+        display: flex;
+        padding:0px 120px;
+        justify-content: space-between;
+    }
+    .swiper-slide {
+        background-color: rgba(0, 25, 53, 1);
+        padding:calc(100/1920*100vw) calc(400/1920*100vw);
+        height: calc(1200/1920*100vw);
+    
+    }
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+    }
+    .swiper-custom-button-next img, .swiper-custom-button-prev img{
+        color:none;
+        background-color: transparent;
+        border: none;
+        width:calc(150/1920*100vw)
+    }
+    .swiper-slide figcaption {
+        font-family: "Inter", sans-serif;
+        font-size: calc(22/1920*100vw);
+        line-height: 33px;
+        font-weight: 700;
+        text-align: center;
+        color:#fff;
+    }
+    .mySwiper figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 25, 53, 1);
+    
+    }
+    //   .swiper-slide {
+    //     text-align: center;
+    //     font-size: 18px;
+    //     background: #fff;
+    //     display: flex;
+    //     background-color: rgba(0, 25, 53, 1);
+    //     justify-content: center;
+    //     align-items: center;
+    //     // padding:160px 0px !important;
+    //   }
+    
+    .swiper-custom-button-next, .swiper-custom-button-prev{
+        color:none;
+        background-color: transparent;
+        border: none;
+    }
+    .swiper-pagination {
+        bottom:100px !important;
+    }
+    swiper-slide figcaption {
+        font-family: "Inter", sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 33px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .figcaption-pendidikan {
+        font-family: "Inter", sans-serif;
+        font-size: calc(22/1920*100vw);
+        font-weight: 700;
+        line-height: 33px;
+        text-align: center;
+    }
+    
+    .special-quote {
+        display:grid;
+        grid-template-columns: 8% 90%;
+        padding:32px 72px 32px 40px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+        width:100%;
+        border-radius: 25px;
+        gap:calc(20/1920*100vw);
+        background-color: rgba(255, 116, 38, 0.2);
+        ;
+    }
+    
+    .blue-bg-container {
+        background-color: #001935;
+        width: 100vw;
+        height: fit-content;
+        padding: 0px 0px;
+    }
+}
