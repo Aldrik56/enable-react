@@ -37,7 +37,7 @@ const Beranda = () => {
                         <li>Pendidikan Inklusi, Mungkinkah Terjadi?</li>
                     </ul>
                     <hr/>
-                    <button className="beranda-button" onclick="window.location.href='./pendidikan'" alt="klik untuk pindah ke halaman pendidikan">Lihat Selengkapnya</button>
+                    <button className="beranda-button" onClick={()=>window.location.href="./pendidikan"} alt="klik untuk pindah ke halaman pendidikan">Lihat Selengkapnya</button>
                 </div>
             </article>
 
@@ -54,7 +54,7 @@ const Beranda = () => {
                         <li>Jaminan Kesehatan Tak Cukup, Pengeluaran Disabilitas Terus Menumpuk</li>
                     </ul>
                     <hr/>
-                    <button className="beranda-button" onclick="window.location.href='./kesehatan'" alt="klik untuk pindah ke halaman kesehatan">Lihat Selengkapnya</button>
+                    <button className="beranda-button" onClick={()=>window.location.href="./kesehatan"} alt="klik untuk pindah ke halaman kesehatan">Lihat Selengkapnya</button>
                 </div>
                 <div className="beranda-article-img">
                     <img src="./assets/images/hero-kesehatan.png" alt=""/>

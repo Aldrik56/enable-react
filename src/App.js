@@ -13,6 +13,7 @@ import './scss/beranda.scss';
 import './scss/pendidikan.scss';
 import './scss/kesehatan.scss';
 // import './scss/tentang_kami.scss';
+import StandarPenyusunan from './pages/StandarPenyusunan';
 import './scss/panduan.scss'
 
 
@@ -27,6 +28,8 @@ function App() {
           <Route path="/kesehatan" element={<Kesehatan/>} />
           <Route path="/panduan" element={<Panduan/>} /> 
           <Route path="/tentang-kami" element={<TentangKami/>} />
+          <Route path="/standar-penyusunan" element={<StandarPenyusunan/>} />
+          
         </Route>
       </Routes>
     </BrowserRouter>
