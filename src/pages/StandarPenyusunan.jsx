@@ -1,6 +1,10 @@
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
 const StandarPenyusunan = () => {
     return (
         <div id="standarPenyusunanPage">
+            <Navbar/>
             <article id='main'>
       <div className="std-header">
         <div className="std-hero">
@@ -217,8 +221,8 @@ const StandarPenyusunan = () => {
           dirangkum di atas merupakan poin <span className="std-span-orange">WCAG 2.2</span> yang dianut dalam situs Enabled.</b></p>
       </div>
     </article>
-
-        </div>
+    <Footer/>
+    </div>
     );
 }
 
