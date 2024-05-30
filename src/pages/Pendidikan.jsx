@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
+import Footer from '../components/Footer';
 const Pendidikan = () => {
     const swiperEl = document.querySelector('mySwiper');
     const [swiper, setSwiper] = useState();
@@ -282,7 +282,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="tenaga__pendidik">
-                                <source  src="../assets/audios/SONIFIKASI PERBANDINGAN TENAGA PENDIDIK.mp3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI PERBANDINGAN TENAGA PENDIDIK1.mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__tenaga__pendidik" alt="klik untuk memutar sonifikasi perbandingan tenaga pendidik"><img src="../assets/images/play-button.png" alt=""/></button>
                             <a href="https://drive.google.com/file/d/1TOToT0iC3XqpUL9Ly0iLKkM9tZMamqVX/view?usp=drive_link" >
@@ -412,15 +412,14 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="sekolah__inklusi">
-                                <source  src="../assets/audios/SONIFIKASI SEKOLAH INKLUSI DAN REGULER (2).MP3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI SEKOLAH INKLUSI DAN REGULER 1(2).mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__sekolah__inklusi" alt="klik untuk memutar sonifikasi perbandingan sekolah inklusi dan regular"><img src="../assets/images/play-button.png"/></button>
                             <a href="https://drive.google.com/file/d/16FV16UCbJD8_6vAlbBFR-wRYgi1HM3Mb/view?usp=drive_link">
                                 <iframe src='https://flo.uri.sh/visualisation/17995888/embed' title='Interactive or visual content' className='flourish-embed-iframe' frameborder='0' scrolling='no'  sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation' style={{width:"100%",height:"600px"}}></iframe><div ><a className='flourish-credit' href='https://public.flourish.studio/visualisation/17995888/?utm_source=embed&utm_campaign=visualisation/17995888' target='_top' style={{textDecoration:"none!important"}}> </a></div>
                             </a>
                             
-                        </div>
-                        
+                        </div>       
                         <p className="paragraf">
                             Sartika Purnamasari (33), teman tuli, pernah ditolak oleh salah satu sekolah umum di daerah Jakarta. Ketika ditanyakan alasannya, sekolah mengungkap bahwa terdapat ketakutan bahwa sekolah tidak mampu mengajar teman tuli. 
                         </p>
@@ -432,7 +431,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="jumlah__aduan">
-                                <source  src="../assets/audios/SONIFIKASI JUMLAH ADUAN PENDIDIKAN KND .MP3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI JUMLAH ADUAN PENDIDIKAN KND 1.mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__jumlah__aduan" alt="klik untuk memutar sonifikasi jumlah aduan"><img src="../assets/images/play-button.png"/></button>
                             <a href="https://drive.google.com/file/d/1qvI3h4xpXSLfRKuGdbZWdyRJ5UVd0ls-/view?usp=drive_link" >
@@ -454,7 +453,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="persebaran__SLB">
-                                <source  src="../assets/audios/SONIFIKASI PERSEBARAN SEKOLAH LUAR BIASA .MP3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI PERSEBARAN SEKOLAH LUAR BIASA 1.mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__persearan__SLB"><img src="../assets/images/play-button.png"/></button>
                             <a href="https://drive.google.com/file/d/1uSb8Pgo2NRZLvwojUKaJBOZVDa0BicVG/view?usp=drive_link">
@@ -472,7 +471,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="pendidikan__penyandang__disabilitas">
-                                <source  src="../assets/audios/SONIFIKASI ANGKA PENDIDIKAN .MP3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI ANGKA PENDIDIKAN1.mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__pendidikan__penyandang__disabilitas"><img src="../assets/images/play-button.png"/></button>
                             <a href="https://drive.google.com/file/d/1gFEZkHxofUnHAtWpXCgtigJryOZtFHFo/view?usp=drive_link">
@@ -751,7 +750,7 @@ const Pendidikan = () => {
                         </p>
                         <div className="embed-dari-flourish">
                             <audio id="pendidikan__penyandang__disabilitas">
-                                <source  src="../assets/audios/SONIFIKASI ANGKA PENDIDIKAN .MP3" type="audio/ogg"/>
+                                <source  src="./assets/audios/SONIFIKASI ANGKA PENDIDIKAN1.mp3" type="audio/ogg"/>
                             </audio>
                             <button  id="button__pendidikan__penyandang__disabilitas"><img src="../assets/images/play-button.png"/></button>
                             <a href="https://drive.google.com/file/d/1gFEZkHxofUnHAtWpXCgtigJryOZtFHFo/view?usp=drive_link">
@@ -810,6 +809,7 @@ const Pendidikan = () => {
                     </div>
                 </div>
             </article>
+            <Footer/>
         </div>
     );
 }
