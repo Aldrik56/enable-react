@@ -141,7 +141,7 @@ const Pendidikan = () => {
                         <p className="tanggal">15/05/2024</p>
                     </div>
                     <div className="author-case-study">
-                        <h2 className="subjudul">Pendidikan Inklusif, Apakah Benar-Benar Ada?</h2>
+                        <h2 className="subjudul" style={{textAlign:'left'}}>Pendidikan Inklusif, Apakah Benar-Benar Ada?</h2>
                         <hr className="hr-kecil" aria-hidden="true"/>
                         <p className="paragraf">Isu pendidikan inklusif telah diperbincangkan sejak tahun 2005 di Indonesia. Namun nyatanya, hingga 2024, penyandang disabilitas sensorik masih kesulitan dalam mengakses pendidikan formal.</p>
                     </div>
