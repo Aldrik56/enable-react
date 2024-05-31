@@ -129,7 +129,7 @@ const Pendidikan = () => {
                 <img src="../assets/images/hero-secction-pendidikan.png" className="pendidikan-hero-image" alt="Robert Hutabarat (51) sedang mengajar murid-muridnya pada Sekolah Luar Biasa Elsafan pada Selasa, 19 Maret 2024"/>
             </section>
             <section className="author-section">
-                <div className="container">
+                <div className="container-article-pendidikan flex-row">
                     <div className="author-info">
                         <div>
                             <img src="../assets/images/pas-foto-keisya.png"  className="author-photo" alt="aaaaa"/>
@@ -148,7 +148,7 @@ const Pendidikan = () => {
                 </div>
             </section>
             <article className="article" id="main">
-                <div className="container-article-pendidikan">
+                <div className="container-article-pendidikan" >
                     <h2 className="subjudul">Kurikulum Terlambat, Tenaga Pendidikan Tersendat</h2>
                     <hr aria-hidden="true" className="hr-kecil"/>
                     <div className="container-paragraf">
