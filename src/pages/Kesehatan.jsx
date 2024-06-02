@@ -49,8 +49,8 @@ const Kesehatan = () => {
         <div id="kesehatanPage">
             <section className="kesehatan-hero-section kesehatanPage" >
                 <div className="halaman-kesehatan-judul">
-                    <h1>Kapan-kapan <br/> Tentu Buta-Tuli <br/> Akan Diperhatikan </h1>
-                    <p>Hidup dengan disabilitas berarti hidup mahal, tak terkecuali dalam mengejar hak untuk mendapat layanan kesehatan. Belum kunjung aksesibel, fasilitas dan layanan kesehatan yang ada justru menambah beban pada biaya yang harus ditanggung penyandang disabilitas sensorik. Di sisi lain, jaminan kesehatan yang disediakan pemerintah belum cukup untuk menutup ongkos tambahan tersebut.</p>
+                    <h1>Kapan-kapan Tentu Buta-Tuli Akan Diperhatikan </h1>
+                    <p className="paragraf">Hidup dengan disabilitas berarti hidup mahal, tak terkecuali dalam mengejar hak untuk mendapat layanan kesehatan. Belum kunjung aksesibel, fasilitas dan layanan kesehatan yang ada justru menambah beban pada biaya yang harus ditanggung penyandang disabilitas sensorik. Di sisi lain, jaminan kesehatan yang disediakan pemerintah belum cukup untuk menutup ongkos tambahan tersebut.</p>
                 </div>
                 <img src="../assets/images/kesehatan/kesehatan-hero-image.png" className="kesehatan-hero-image" alt="fffffffffffff"/>
             </section>
@@ -69,9 +69,12 @@ const Kesehatan = () => {
             <main id="main" className="kesehatanPage">
                 <article className="article" id="main">
                     <div className="content-container" style={{marginTop:"calc(80/1080*100vh)"}}>
-                        <h2 className="subjudul">Layanan Kesehatan Belum Spesifik Memerhatikan <br/> 
-                            Penyandang Disabilitas Sensorik</h2>
-                        <hr className="hr-kecil me-auto ms-auto mt-3"/>
+                        <div class="subjudulContainer">
+                            <h2 className="subjudul">Layanan Kesehatan Belum Spesifik Memerhatikan <br/> 
+                                Penyandang Disabilitas Sensorik</h2>
+                            <hr className="hr-kecil me-auto ms-auto mt-3"/>
+                        </div>
+                        
                         <div className="container-paragraf">
                             <p className="paragraf">
                                 “Suster menolak komunikasi dengan saya karena saya tuli,” ujar Icha menceritakan pengalamannya saat mengakses layanan kesehatan pada Minggu (10/03/2024).
@@ -111,7 +114,6 @@ const Kesehatan = () => {
                                 <audio id="pendidikan__penyandang__disabilitas">
                                     <source  src="../assets/audios/SONIFIKASI ANGKA PENDIDIKAN .MP3" type="audio/ogg"/>
                                 </audio>
-                                <button  id="button__pendidikan__penyandang__disabilitas"><img src="../assets/images/play-button.png"/></button>
                                 <a href="https://drive.google.com/file/d/1gFEZkHxofUnHAtWpXCgtigJryOZtFHFo/view?usp=drive_link">
                                 <iframe src='https://flo.uri.sh/visualisation/17925499/embed'  title='Interactive or visual content' className='flourish-embed-iframe' frameborder='0' scrolling='no'  sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation' style={{width:"100%",height:"600px"}}></iframe><div ><a className='flourish-credit' href='https://public.flourish.studio/visualisation/17925499/?utm_source=embed&utm_campaign=visualisation/17925499' target='_top' style={{textDecoration:"none!important"}}> </a></div>
                                 </a>   
